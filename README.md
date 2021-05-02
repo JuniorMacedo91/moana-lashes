@@ -12,7 +12,7 @@ I've created this landing page to improve my skills using SEO and Flexbox techni
 ## Project:
 
 <p align="center">
-  <img src="moana.gif" width="800px">
+  <img src="video.gif" width="800px">
 </p>
 
 ## Technologies
