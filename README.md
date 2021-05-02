@@ -24,4 +24,4 @@ I've created this landing page to improve my skills using SEO and Flexbox techni
 [![Figma](https://img.shields.io/badge/figma-yellow?style=for-the-badge&logo=figma&labelColor=black)](https://github.com/JuniorMacedo91)
 
 ## Check out the Web Page:
- 
+https://juniormacedo91.github.io/moana-lashes-landing-page/
