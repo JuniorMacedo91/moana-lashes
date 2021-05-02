@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@600&family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: white;
+}
+
+body, html{
+    width: 100%;
+    height: 100vh;
+    font-family:'montserrat', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.title{
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    color: black;
+}
+
+.content{
+    max-width: 50%;
+    margin: 1rem auto;
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: black;
+}
+
+/* Header Styling*/
+.header{
+    position: fixed;
+    width: 100%;
+    background-image: linear-gradient(to right,#4b1285, #faa507 );
+}
+
+.logo{
+    width: 150px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 1100px;
+    padding: 10px 0;
+}
+
+li, a{
+    display: inline-block;
+    padding: 4px;
+    margin: 0 5px;
+    font-weight: bold;
+    font-size: 18px 0;
+    border-radius: 50px;
+    box-shadow:inset 0 0 0 0 #fdfcfb3d;
+    transition: ease-out 0.5s;
+}
+
+/* Setting home section*/
+#home{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: url(./assets/lashes.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+}
+
+/*Title styling*/
+.home_container{
+    margin: 360px auto;
+    width: 100%;
+    max-width: 1100px;
+    top: 250px;
+}
+
+.work{
+    font-size: 4em;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    font-family: 'Baloo Chettan 2', sans-serif;
+    color: #4b1285;
+}
+
+.slogan{
+    font-size: 26px;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    font-family: 'montserrat', sans-serif;
+    color: #4b1285;
+}
+
+/*Buttom and Links styling*/
+.btn{
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border:3px solid #faa507;
+    box-shadow: inset 0 0 0 0 #faa507;
+    transition: ease-out 0.5s;
+    border-radius: 50px;
+    color: #4b1285;
+}
+
+.work, .slogan, .btn{
+    margin:  1rem auto;
+}
+
+.btn:hover{
+    box-shadow: inset 400px 0 0 0 #faa507;
+}
+
+li:hover{
+    box-shadow: inset 400px 0 0 0 #fdfcfb54;
+    border-radius: 50px;
+}
+
+/*Setting about section*/
+
+#about{
+    width: 100%;
+    padding-top: 60px;
+    background-image: linear-gradient(to bottom, #4b1285 25%, transparent 20%);
+    text-align: center;
+}
+
+.box{
+    margin: auto;
+    max-width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_info{
+    width: 100%;
+    height: 100%;
+    padding: 30px 0;
+    margin: 15px;
+   
+    text-transform: uppercase;
+    font-size: 1rem;
+
+    background: rgba(255, 255, 255, 0.034);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: white;
+    font-family: 'Baloo Chettan 2', sans-serif;
+}
+
+/*Work section Styling*/
+#work{
+    width: 100%;
+    text-align: center;
+}
+
+.images{
+    margin: 60px auto;
+}
+
+.work_img{
+    width: 280px;
+}
+
+.work_img:hover{
+    z-index: 1;
+    transform: scale(1.2);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+/*Footer Styling*/
+#contact{
+    width: 100%;
+    padding: 2rem;
+    background-color: #4b1285;
+}
+
+.icon{
+    width: 40px;
+}
+
+.footer_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Form styling*/
+.form_container{
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff33;
+    box-shadow: 0px 0px 20px #00000086;
+}
+
+.apply_info{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#apply_btn{
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border:2px solid #faa507;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#apply_btn:hover{
+    background-color: #faa507;
+    color: white;
+}
