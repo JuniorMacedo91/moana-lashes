@@ -1,21 +1,24 @@
 # moana-lashes-landing-page
-A Landing Page creation to a friend of mine who works as a Eyelashes Designer.
+Website desenvolvido como projeto do curso Programador BR. 
 
-## Description:
-I've created this landing page to improve my skills using SEO and Flexbox techniques.
+## Descrição:
+O desafio consiste em criar algum site comercial, que ainda não possui na cidade. 
+Como tema, criei um site em referência a uma amiga que trabalha com extensão de cílios.
 
- - [x] About design, I'm currently using Figma. It gives me a lot of creation insights and it allows to see how the website will be done.
- - [x] SEO is the most important technique to increase the searching and traffic to a website.
- - [x] Flexbox is a new way of organizing elements, building a website more responsive.
- - [x] Glassmorphism is new techquine I'm exploring. It gives a glass transparent effect.
+Nesse site, busquei utilizar as seguintes técnicas:
 
-## Project:
+ - [x] Figma - Sistema desenvolvido para criar o layout do site, como um protótipo;
+ - [x] SEO - Otimizar todo o conteúdo para facilitar a busca e posicionar nos melhores ranking.s
+ - [x] Flexbox - Técnica mais atual de posicionamento de elemento e facilidade para criação de responsividade.
+ - [x] Glassmorphism - Efeito em vidro;
+
+## Projeto:
 
 <p align="center">
   <img src="video.gif" width="800px">
 </p>
 
-## Technologies
+## Tecnologias:
 
 [![HTML](https://img.shields.io/badge/HTML-red?style=for-the-badge&logo=HTML5&labelColor=black)](https://github.com/JuniorMacedo91)
 
@@ -23,5 +26,5 @@ I've created this landing page to improve my skills using SEO and Flexbox techni
 
 [![Figma](https://img.shields.io/badge/figma-yellow?style=for-the-badge&logo=figma&labelColor=black)](https://github.com/JuniorMacedo91)
 
-## Check out the Web Page:
+## Site:
 https://juniormacedo91.github.io/moana-lashes-landing-page/
